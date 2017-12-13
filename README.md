@@ -1,4 +1,7 @@
-## SMSAuthParser [![CircleCI](https://circleci.com/gh/WindSekirun/SMSAuthParser.svg?style=svg)](https://circleci.com/gh/WindSekirun/SMSAuthParser) 
+## SMSAuthParser [![CircleCI](https://circleci.com/gh/WindSekirun/SMSAuthParser.svg?style=svg)](https://circleci.com/gh/WindSekirun/SMSAuthParser) [![](https://jitpack.io/v/WindSekirun/SMSAuthParser.svg)](https://jitpack.io/#WindSekirun/SMSAuthParser)
+
+[![Kotlin](https://img.shields.io/badge/kotlin-1.2.0-blue.svg)](http://kotlinlang.org)	[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
+
 Simple SMS Authorization Library in Android Application, written in Kotlin.
 
 <img src="https://github.com/WindSekirun/SMSAuthParser/blob/master/sample.jpg" width="175" height="360">
