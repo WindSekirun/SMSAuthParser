@@ -3,7 +3,16 @@ package pyxis.uzuki.live.smsauthparser
 import android.content.Context
 import pyxis.uzuki.live.richutilskt.impl.F1
 
-data class AuthOption(val context: Context, val containsCondition: String, val callback: (String) -> Unit) {
+class AuthOption() {
+    var context: Context? = null
+    var containsCondition: String = ""
+    var callback: (String) -> Unit = {}
+
+    constructor(context: Context, containsCondition: String, callback: (String) -> Unit) : this() {
+        this.context = context
+        this.containsCondition = containsCondition
+        this.callback = callback
+    }
 
     class Builder {
         private var context: Context? = null
