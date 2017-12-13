@@ -1,5 +1,7 @@
-## SMSAuthParser 
-Simple SMS Authorization Library in Android Application, written in Kotlin. 
+## SMSAuthParser [![CircleCI](https://circleci.com/gh/WindSekirun/SMSAuthParser.svg?style=svg)](https://circleci.com/gh/WindSekirun/SMSAuthParser) 
+Simple SMS Authorization Library in Android Application, written in Kotlin.
+
+<img src="https://github.com/WindSekirun/SMSAuthParser/blob/master/sample.jpg" width="175" height="360">
 
 It provides...
  * Parsing SMS Authorization Message and export as Number
