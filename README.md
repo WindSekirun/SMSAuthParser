@@ -2,7 +2,7 @@
 
 [![Kotlin](https://img.shields.io/badge/kotlin-1.2.0-blue.svg)](http://kotlinlang.org)	[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
 
-Simple SMS Authorization Library in Android Application, written in Kotlin.
+Simple SMS Authorization Library in Android Application, written in [Kotlin](http://kotlinlang.org).
 
 <img src="https://github.com/WindSekirun/SMSAuthParser/blob/master/sample.jpg" width="175" height="360">
 
