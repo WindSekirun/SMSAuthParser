@@ -14,16 +14,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val authOption = AuthOption.Builder()
-                .setContext(this)
-                .setContainsCondition("인증")
-                .setCallback { this@MainActivity.alert("번호: %s".format(it)) }
+                .setContext(this) // necessary
+                .setContainsCondition("Steam") // optional
+                .setParsingRegex("[0-9]+") // optional, default is [0-9]+
+                .setCallback { this@MainActivity.alert("Parsing Result: %s".format(it)) } // necessary
                 .build()
 
         parser.initialize(authOption)
     }
 
-    override fun onPause() {
-        super.onPause()
+    override fun onDestroy() {
+        super.onDestroy()
         parser.release()
     }
 }
