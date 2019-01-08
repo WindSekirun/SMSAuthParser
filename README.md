@@ -1,3 +1,8 @@
+## This project no longer maintained!
+Start from Jan 9, 2019, Google announce their [SMS or Call Log permission policy in Google Play](https://www.androidpolice.com/2019/01/05/googles-new-sms-and-call-permission-policy-is-crippling-apps-used-by-millions/), SMSAuthParser library will infect this policy totally.
+
+If you need SMS Authoriztaion feature, consider use [SMS Retriever API](https://developers.google.com/identity/sms-retriever/) which doesn't need any permission to read SMS.
+
 ## SMSAuthParser [![](https://jitpack.io/v/WindSekirun/SMSAuthParser.svg)](https://jitpack.io/#WindSekirun/SMSAuthParser)
 
 [![Kotlin](https://img.shields.io/badge/kotlin-1.2.0-blue.svg)](http://kotlinlang.org)	[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
